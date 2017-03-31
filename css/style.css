@@ -1,8 +1,40 @@
-body {
+* {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
 
-h1 {
-	font-weight: 300;
+#paragraph {
+	font-weight: 100;
+	font-color: #BCBBBB;
+}
+
+#page-top.row {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#main-image {
+	border-top: medium solid #BCBBBB;
+    padding-top: 30px;
+}
+
+#sitename, #header3, #header4 {
+	color: #747704;
+}
+
+#header2 {
+	color: #BCBBBB;
+}
+
+#header3 {
+	font-size: 35px;
+}
+
+#sitename {
+	font-weight: 100;
+	font-size: 60px;
+}
+
+.container {
+	max-width: 980px;
 }
